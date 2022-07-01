@@ -1,0 +1,36 @@
+/* General Body Styling*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: #20FAED;
+    color: #120344;
+}
+
+/*Navigation bar*/
+#header-nav {
+    background-color: #61122f;
+}
+#header-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav_list li {
+    text-align: center;
+    border: 1px black solid;
+    background-color: #a19cdf;
+    margin:0px -15px;
+}
+/* Content */
+#title_card {
+    margin: 10px auto 30px;
+    font-weight: bold;
+}
+#chicken_section {
+    padding: 20px;
+    border: 1px black solid;
+}
+#chicken_section h3 {
+    text-align: center;
+    font-weight: bold;
+}
