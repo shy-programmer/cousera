@@ -1,0 +1,76 @@
+/* General features*/
+body {
+    background-color: #f0f7f7e7;
+    
+}
+
+.topics {
+    text-align: center;
+}
+
+#header {
+    margin-bottom: 0px;
+}
+
+#subheader {
+    margin-top: 0px;
+    color: #e14053;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.all a {
+    border: 2px solid black;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.all a:nth-child(even) {
+    color: white;
+}
+
+.M1 {
+    background-color: rgb(236, 16, 16);
+}
+.M2 {
+    background-color: rgb(34, 70, 251);
+}
+.M3 {
+    background-color: rgb(255, 255, 59);
+}
+.M4 {
+    background-color: rgb(19, 206, 19);
+}
+
+
+@media (min-width : 992px) {
+    .col-lg-3 {
+        float: left;
+        width: 25%;
+        margin: 5px -1px ;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .col-md-6 {
+        float: left;
+        margin: -1px -1px;
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .col-sm-12 {
+        float: left;
+        margin: -1px;
+        width: 100%;
+        border: 1px solid black;
+    }
+} 
+
+.footer{
+    text-align: center;
+    margin: 50px auto;
+}
